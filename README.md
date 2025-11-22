@@ -51,10 +51,12 @@ How the code could be improved:
 
 Instead of reading the code in, then reading position 0, 2, 4, making each a variable, then doing the logic, it's simpler to do the logic on the data directly, e.g.:
 
-if int(new_data[0]) + int(new_data[2] = int(new_data[4]):
+if int(new_data[0]) + int(new_data[2]) = int(new_data[4]):
   print ('True')
 else:
   print ('False')
 
 That'd maybe make things a bit faster.
+Update: I tried the above suggested change and it made the code slower, although it did make the running memory slightly less.  I'd leave the code as originally posted, as it's easier to read in it's original form.
+
 
