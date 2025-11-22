@@ -1,0 +1,26 @@
+# Initialise variables
+
+data = []
+
+# Get the input
+
+data = input()
+#print (data)
+
+# Split the text into the variables
+
+new_data = data.split()
+
+new_a = int(new_data[0])
+new_b = int(new_data[2])
+new_c = int(new_data[4])
+
+
+# Do the calculation and output the result
+
+if new_a + new_b == new_c:
+    print ('True')
+    
+else:
+    print ('False')
+
